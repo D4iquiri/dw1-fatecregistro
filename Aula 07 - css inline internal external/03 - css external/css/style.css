@@ -1,0 +1,28 @@
+/* Comentari CSS*/
+/* Este é um arquivo de CSS externo */
+
+body {
+    background-color: #30302e;
+    color: #fcfcfc;
+    font-family: cursive;
+    /* espaço interno */
+    padding: 20px;
+    /* Entrelinhamento (leading) */
+    line-height: 1.6;
+}
+h1 {
+    font-size: 32px;
+    text-align: center;
+    /* espaçamento inferior */
+    padding-bottom: 15px;
+    /* borda inferior */
+    border-bottom: 3px solid #8cc9e4;
+}
+
+div.container {
+    background-color: #3a3a38;
+    padding: 20px;
+    border-radius: 10px;
+    /* margin: 20px 50px 100px 200px; */
+    margin: 20px 0;
+}
