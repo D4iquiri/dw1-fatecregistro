@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <h1>Formularios no HTML5</h1>
+    <form action="/cadastrar" method="GET">
+      <label for="nome">Nome:</label><br />
+      <!-- Input texto -->
+      <input
+        name="nome"
+        type="text"
+        id="nome"
+        placeholder="Insira o seu nome completo..."
+      /><br />
+      <!-- label para email -->
+      <label for="email">Email:</label><br />
+      <!-- Input email -->
+      <input type="email" id="email" /><br />
+      <!-- label para senha -->
+      <label name="senha" for="senha" id="senha">Senha:</label><br />
+      <!-- Input senha -->
+      <input type="password" id="senha" /><br /><br> 
+       <input type="submit" value="Cadastrar">
+       <!-- BOTÃO DE LIMPAR O FORMULARIO -->
+       <input type="reset" value="Limpar">
+    </form>
+    <br /><br />
+    <hr />
+    <h4>Outros inputs:</h4>
+    <form>
+      <!-- label numero -->
+      <label for="numero">Quantidade:</label><br />
+      <!-- Input numero -->
+      <input type="number" min="0" max="10" id="numero" /><br />
+      <!-- label data -->
+      <label>Data:</label><br />
+      <!-- Input data -->
+      <input type="date" /><br /><br />
+      <!-- input arquyivos -->
+      <input type="file" /><br /><br />
+      <!-- campo de texto longo (textarea) -->
+      <label>Comentarios:</label><br>
+      <textarea rows="4" cols="40"></textarea><br>
+      <input type="hidden" name="idProduto" value="9"><br><br>
+      <!-- caixa de seleção -->
+       <select name="Cursos">
+        <option value="1">Programação</option>
+        <option value="2">Design Grafico</option>
+        <option value="3">Musica</option>
+        <option value="4">Enfermagem</option>
+       </select>
+    </form>
+  </body>
+</html>
